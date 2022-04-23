@@ -1,9 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@remix-run/dev': ^1.0.6
-  '@remix-run/react': ^1.0.6
-  '@remix-run/serve': ^1.0.6
+  '@remix-run/dev': ^1.4.1
+  '@remix-run/node': ^1.4.1
+  '@remix-run/react': ^1.4.1
+  '@remix-run/serve': ^1.4.1
+  '@remix-run/server-runtime': ^1.4.1
   '@types/marked': ^4.0.1
   '@types/react': ^17.0.24
   '@types/react-dom': ^17.0.9
@@ -16,8 +18,10 @@ specifiers:
   typescript: ^4.1.2
 
 dependencies:
+  '@remix-run/node': registry.npmmirror.com/@remix-run/node/1.4.1_react-dom@17.0.2+react@17.0.2
   '@remix-run/react': registry.npmmirror.com/@remix-run/react/1.4.1_react-dom@17.0.2+react@17.0.2
   '@remix-run/serve': registry.npmmirror.com/@remix-run/serve/1.4.1_react-dom@17.0.2+react@17.0.2
+  '@remix-run/server-runtime': registry.npmmirror.com/@remix-run/server-runtime/1.4.1_react-dom@17.0.2+react@17.0.2
   '@types/marked': registry.npmmirror.com/@types/marked/4.0.3
   front-matter: registry.npmmirror.com/front-matter/4.0.2
   marked: registry.npmmirror.com/marked/4.0.14
